@@ -1,0 +1,6 @@
+my_dict = {'a': 50, 'b': 30, 'c': 70, 'd': 40}
+
+sorted_values = sorted(my_dict.values(), reverse=True)
+highest_values = sorted_values[:3]
+
+print("Highest 3 values:", highest_values)
