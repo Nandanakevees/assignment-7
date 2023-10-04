@@ -1,0 +1,4 @@
+my_dict = {3: 30, 1: 10, 2: 20}
+
+sorted_dict = dict(sorted(my_dict.items()))
+print(sorted_dict)
