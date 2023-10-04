@@ -1,0 +1,8 @@
+ist_of_dicts1 = [{}, {}, {}]
+list_of_dicts2 = [{1, 2}, {}, {}]
+
+def are_all_empty(dicts):
+    return all(not d for d in dicts)
+
+print(are_all_empty(list_of_dicts1))  # True
+print(are_all_empty(list_of_dicts2))  # False
