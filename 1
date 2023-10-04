@@ -1,0 +1,9 @@
+my_dict = {3: 30, 1: 10, 2: 20}
+
+# Ascending
+sorted_dict_asc = dict(sorted(my_dict.items(), key=lambda item: item[1]))
+print("Ascending:", sorted_dict_asc)
+
+# Descending
+sorted_dict_desc = dict(sorted(my_dict.items(), key=lambda item: item[1], reverse=True))
+print("Descending:", sorted_dict_desc)
